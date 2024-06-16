@@ -1,0 +1,23 @@
+<!-- res/layout/marker_view.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/marker_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/location" /> <!-- Thay ic_marker bằng icon của bạn -->
+
+    <TextView
+        android:id="@+id/marker_title"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Marker Title"
+        android:textColor="#000000" />
+</LinearLayout>
